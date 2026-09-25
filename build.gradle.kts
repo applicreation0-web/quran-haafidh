@@ -18,6 +18,6 @@ plugins {
 // migration/state-sanitizer tests fail before exercising application logic.
 subprojects {
     plugins.withId("com.android.application") {
-        dependencies.add("testImplementation", "org.json:json:20240303")
+        dependencies.add("testImplementation", "org.json:json:20260814")
     }
 }
